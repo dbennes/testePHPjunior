@@ -1,0 +1,86 @@
+#nav-lateral {
+  margin: 0;
+  padding: 0;
+  float: left;
+  height: 100vh;
+  background: #333333;
+  position: absolute;
+  /*z-index: 100;*/
+}
+
+#nav-lateral li {
+  list-style: none;
+  background: #333333;
+  width: 200px;
+  transition: all .2s linear;
+}
+
+#nav-lateral li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  /*box-shadow: 5px 0px 0px #ff8a00;*/
+  color: #fff;
+}
+
+#nav-lateral li a:hover {
+  background: rgb(80,81,81);
+  color: #fff;
+}
+
+.icon_menu {
+  color: rgb(54,173,224);
+  font-size: 19px;
+}
+
+.logo {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  color: #68c7ef;
+}
+
+.vert {
+  margin: 0;
+}
+
+.menunavegacao {
+  color: #6c6c6c;
+  background: rgb(37,37,37);
+  margin-bottom: 20px;
+}
+
+#check {
+  display: none;
+}
+
+#icone {
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  z-index: 2;
+}
+
+.barra {
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  transition: all .2s linear;
+  left: -300px;
+  z-index: 1;
+}
+
+#check:checked ~ .barra {
+  transform: translateX(300px);
+  position: relative;
+}
+
+.icon_menu2 {
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+body {
+}
+

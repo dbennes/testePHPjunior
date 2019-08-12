@@ -1,0 +1,82 @@
+#nav-lateral {
+  margin: 0;
+  padding: 0;
+  float: left;
+  height: 100vh;
+  background: #5392cc;
+  position: absolute;
+  /*z-index: 100;*/
+}
+
+#nav-lateral li {
+  list-style: none;
+  background: #5392cc;
+  width: 200px;
+  transition: all .2s linear;
+}
+
+#nav-lateral li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  /*box-shadow: 5px 0px 0px #ff8a00;*/
+  color: #fff;
+}
+
+#nav-lateral li a:hover {
+  background: #245684;
+  color: #fff;
+}
+
+.icon_menu {
+  color: rgb(255,255,255);
+  font-size: 19px;
+}
+
+.logo {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  color: #ffffff;
+}
+
+.menunavegacao {
+  color: #6c6c6c;
+  background: #245684;
+  margin-bottom: 20px;
+}
+
+#check {
+  display: none;
+}
+
+#icone {
+  cursor: pointer;
+  padding: 15px;
+  padding-left: 25px;
+  position: absolute;
+  z-index: 2;
+  font-size: 28px;
+  color: #fff;
+}
+
+.barra {
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  transition: all .2s linear;
+  left: -300px;
+  z-index: 1;
+}
+
+.icon_menu2 {
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.icon {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
